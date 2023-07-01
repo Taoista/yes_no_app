@@ -37,7 +37,7 @@ class HerMessageBubble extends StatelessWidget {
 }
 
 class _ImageBubble extends StatelessWidget {
-  String url;
+  final String url;
   _ImageBubble({required this.url});
 
   @override
